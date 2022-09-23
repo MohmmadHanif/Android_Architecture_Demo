@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="quotes"
+            type="com.example.androidarchitecturedemo.databindinddemo.DemoQuotesDataClass" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".databindinddemo.DataBindingMainActivity">
+
+        <!--android:text="@string/lambi_zubaan_insaan_ko_chhota_kar_deti_hai"-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{quotes.text}"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_light"
+            android:textColor="@color/black"
+            android:id="@+id/text" />
+
+        <!--android:text="@string/author"-->
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{quotes.author}"/>
+    </LinearLayout>
+</layout>

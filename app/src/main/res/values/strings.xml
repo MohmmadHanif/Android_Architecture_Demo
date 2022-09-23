@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Android Architecture Demo</string>
+    <string name="lifecycle_components">LifeCycle Components</string>
+    <string name="_0">0</string>
+    <string name="increment">increment</string>
+    <string name="viewModal">viewModal</string>
+    <string name="quotes">Quotes</string>
+    <string name="genius_is_one_percent_inspiration_and_ninety_nine_percent_perspiration">Genius is one percent inspiration and ninety-nine percent perspiration.</string>
+    <string name="bruce_wayne">Bruce Wayne</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="liveData">liveData</string>
+    <string name="todo">TODO</string>
+    <string name="this_is_quotes_body">This is Quotes Body</string>
+    <string name="author">Hanif</string>
+    <string name="databindingquotetext">Genius is one percent inspiration and ninety-nine percent perspiration.</string>
+    <string name="DataBinding">DataBinding</string>
+    <string name="lambi_zubaan_insaan_ko_chhota_kar_deti_hai">Lambi Zubaan Insaan Ko Chhota kar Deti hai</string>
+    <string name="change">change</string>
+    <string name="oneWayDataBinding">oneWayDataBinding</string>
+    <string name="insert">Insert</string>
+    <string name="MVVMDemo">MVVM Demo</string>
+    <string name="_8153815190">8153815190</string>
+    <string name="ListAdapter">ListAdapter</string>
+</resources>
