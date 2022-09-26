@@ -22,4 +22,6 @@
     <string name="MVVMDemo">MVVM Demo</string>
     <string name="_8153815190">8153815190</string>
     <string name="ListAdapter">ListAdapter</string>
+    <string name="ApiCallingUsingMVVM">ApiCallingUsingMVVM</string>
+    <string name="WallpaperUsingRetrofitWithMVVM">WallpaperUsingRetrofitWithMVVM</string>
 </resources>

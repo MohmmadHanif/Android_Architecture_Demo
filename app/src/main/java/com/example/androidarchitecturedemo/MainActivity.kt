@@ -14,6 +14,8 @@ import com.example.androidarchitecturedemo.lifecycle.LifeCycleAwareComponents
 import com.example.androidarchitecturedemo.livedata.LivedataMainActivity
 import com.example.androidarchitecturedemo.mvvm_demo.MVVMMainActivity
 import com.example.androidarchitecturedemo.quotes_app_demo.QuotesMainActivity
+import com.example.androidarchitecturedemo.retrofit.ui.activity.WallpaperMainActivity
+import com.example.androidarchitecturedemo.retrofit_mvvm.ui.activitys.RetrofitWithMVVMMainActivity
 import com.example.androidarchitecturedemo.viewmodaldemo.ViewModalMainActivity
 
 class MainActivity : AppCompatActivity(), OnClickListener {
@@ -31,6 +33,8 @@ class MainActivity : AppCompatActivity(), OnClickListener {
         binding.oneWayDataBinding.setOnClickListener(this)
         binding.MVVMDemo.setOnClickListener(this)
         binding.ListAdapter.setOnClickListener(this)
+        binding.ApiCallingUsingMVVM.setOnClickListener(this)
+        binding.WallpaperUsingRetrofitWithMVVM.setOnClickListener(this)
 
     }
 
@@ -44,6 +48,8 @@ class MainActivity : AppCompatActivity(), OnClickListener {
             binding.oneWayDataBinding -> goToActivity(this, OneWayDataBDMainActivity::class.java)
             binding.MVVMDemo -> goToActivity(this, MVVMMainActivity::class.java)
             binding.ListAdapter -> goToActivity(this, DiffUilsAndListAdapterMainActivity::class.java)
+            binding.ApiCallingUsingMVVM -> goToActivity(this, RetrofitWithMVVMMainActivity::class.java)
+            binding.WallpaperUsingRetrofitWithMVVM -> goToActivity(this, WallpaperMainActivity::class.java)
         }
     }
 
